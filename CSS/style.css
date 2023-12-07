@@ -1,0 +1,258 @@
+* { margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+@media only screen and (max-width: 600px) {
+    .article-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-container {
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list li {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .inscription-form {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .grid-item {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-item .image {
+        order: -1;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../IMG/fondo.png);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    border-radius: 0%;
+    padding: 15px;
+    margin: 0%;
+    opacity: 70%;
+    width: 100%;
+}
+
+.button_header:link, .button_header:visited {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 15px 30px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    opacity: 60%;
+}
+
+.button_header:hover, .button_header:active {
+    background-color: gray;
+}
+
+.article-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.article-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+img {
+    max-width: 35%;
+    height: auto;
+}
+
+.text-container {
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+}
+
+header {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.content {
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    bottom: 100;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.inscription-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
+
+label {
+    margin-top: 10px;
+    color: white;
+    font: bold;
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.text {
+    text-align: left;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-container {
+    padding: 30px;
+    display: flex;
+    overflow-x: auto;
+    margin: 50px;
+}
+
+.gallery-item {
+    flex: 0 0 auto;
+    margin-right: 0px;
+}
+
+li {
+    font-size: 20px;
+    color: white;
+}
+
+.map-section {
+    padding: 30px;
+    width: 300%;
+    height: auto;
+}

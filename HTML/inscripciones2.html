@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripcion</title>
+    <link href="../CSS/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header>
+    <h2 class="logo">TORNEO SUREÑO</h2>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="inscripciones2.html">Inscripción</a></li>
+            <li><a href="acerca de.html">Acerca de</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+      <h2>INSCRIBITE EN NUETRO TORNEO!</h2>
+      <div class="container">
+        <form action="#" method="post" class="inscription-form">
+            <label for="nombre">Nombre del Equipo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="escudo">Escudo del Equipo:</label>
+            <input type="file" id="escudo" name="escudo" accept="image/*">
+
+            <label for="jugadores">Cantidad de Jugadores:</label>
+            <input type="number" id="jugadores" name="jugadores" required>
+
+            <label for="email">Dirección de Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Número de Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]+" required>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+          <p>Ulises Ziegler, Organizador.<br>
+          En caso de tener alguna duda, enviar un mail a <a href="mailto:uziegler@outlook.es"> uziegler@outlook.es</a></p>
+      </div>
+  </footer>
+</body>
+</html>
